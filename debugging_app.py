@@ -3,7 +3,7 @@ import streamlit as st
 import requests
 
 def call_codestral_chat(messages, max_tokens=150, temperature=0.7):
-    api_key = "lpDbaMprtRENWx8n0UgqyFghrbN4kznc"
+    api_key = "***************************"
     url = "https://codestral.mistral.ai/v1/chat/completions"
     headers = {
         "Authorization": f"Bearer {api_key}",
